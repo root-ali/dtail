@@ -13,11 +13,6 @@ Requirements
 - Go 1.20+ (or compatible)
 - Docker daemon if you use a real Docker integration
 
-Repository layout
-- `main.go` — CLI entrypoint and orchestrator.
-- `docker.go` — optional stub or real DockerService implementation (not included by default).
-- `go.mod`, `go.sum` — module files.
-
 Quick build
 
 ```bash
